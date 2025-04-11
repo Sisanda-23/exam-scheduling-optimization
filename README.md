@@ -11,7 +11,16 @@
 - `original_implementation_exam_scheduler.py`: Initial implementation
 - `docs_theory_background.md`: Math foundations
 
+## 🔍 Insights  
+- Achieved **zero hard conflicts** in sample data  
+- Runtime: O(n³) (dominated by eigen-decomposition)
+- 
+## 🚀 Future Work  
+- Scaling to 100+ exams (sparse matrices)  
+- Incorporating room capacities  
+
 ## 💻 Run It
 ```bash
 pip install -r original_implementation_requirements.txt
 python original_implementation_exam_scheduler.py
+
