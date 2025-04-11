@@ -1,4 +1,7 @@
-
+"""
+Schedules exams using eigenvalue decomposition of graph Laplacian.
+Constraints: Max 2 exams/day per student, no direct conflicts.
+"""
 import random
 
 # Parameters
